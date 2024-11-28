@@ -1,0 +1,54 @@
+.box{
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    margin-left: 400px;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+input{
+    height: 60px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin: 25px 48px;
+    border-radius: 15px;
+    border-radius: 1px solid white;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+    font-size: 30px;
+}
+input::placeholder{
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 40px ;
+    padding-top: 120px;
+    gap: 15px;
+    
+}
+button:hover{
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+   
+
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+   
+
+   
+  
+}
